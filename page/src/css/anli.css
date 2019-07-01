@@ -1,0 +1,114 @@
+.header_bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_bg h2 {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.header_bg p {
+    font-size: 16px;
+    color: #fff;
+    opacity: .7;
+}
+.header_bg1 {
+    background-image: url('../img/anli2/1/组 19@2x.png');
+}
+.header_bg2 {
+    background-image: url('../img/anli2/2/组 22.png');
+}
+.header_bg3 {
+    background-image: url('../img/anli2/3社区论坛/组 25.png');
+}
+.header_bg4 {
+    background-image: url('../img/anli2/4智能硬件/组 27.png');
+}
+.header_bg5 {
+    background-image: url('../img/anli2/5可视化系统/组 29.png');
+}
+
+.header_bg6 {
+    background-image: url('../img/anli2/6智能化办公/组 31.png');
+}
+
+.header_bg7 {
+    background-image: url('../img/anli2/7自研产品/组 34.png');
+}
+
+
+.b1 {
+    background-image: url('../img/anli2/1/Shape_1-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b2 {
+    background-image: url('../img/anli2/2/Shape_1-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.anli-con {
+    padding: 70px 0 0 0;
+}
+.anli-con .left {
+    position: relative;
+}
+.anli-con .left img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.anli-con .right {
+    padding: 0 150px 0 100px;
+    margin-bottom: -6px;
+}
+.anli-con p {
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #9B9B9B
+}
+
+
+
+.anli-con2 {
+    padding: 70px 0 0 0;
+}
+.anli-con2 .right {
+    position: relative;
+}
+.anli-con2 .right img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.anli-con2 .left {
+    margin-bottom: -6px;
+    padding: 0 100px 0 150px;
+}
+.anli-con2 p {
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #9B9B9B
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
