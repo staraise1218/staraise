@@ -201,6 +201,32 @@ body {
 }
 
 
+/* zs3 */
+.zs3 {
+    width: 100%;
+    height: 550px;
+    background-image: url('../img/z47.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.zs3 p {
+    font-size: 30px;
+    color: #fff;
+    padding: 40px 0;
+}
+.zs3 ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.zs3 ul li {
+    display: inline-block;
+}
+.zs3 ul li img {
+    height: 350px;
+}
 
 /* 服务流程 */
 .process {
