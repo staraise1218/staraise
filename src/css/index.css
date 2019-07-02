@@ -568,9 +568,9 @@ body {
 .kh .klist .b > div:first-child {
     border-left: 1px solid #eee;
 }
-
-
-
+.kh .klist .b2 div {
+    border-top: 1px solid #eee;
+}
 
 
 
