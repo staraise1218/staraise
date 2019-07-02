@@ -413,6 +413,10 @@ body {
     color: #fff;
     margin-top: 100px;
 }
+.zs2.bg1 {
+    background-image: url('../img/fw/z51.png');
+    height: 500px;
+}
 .zs2 .p1 {
     font-size: 28px;
     padding-top: 65px;
@@ -482,15 +486,17 @@ body {
     position: absolute;
     left: 47%;
     bottom: -50px;
+    z-index: 1;
 }
 .bg::after {
     display: block;
     font-size: 40px;
     position: absolute;
-    left: 53%;
+    left: 50%;
     color: #3DBCF2;
     opacity: .1;
     bottom: -20px;
+    z-index: 1;
 }
 .server.bg::before {
     content: 'SERVICE PROCESS'
@@ -504,13 +510,35 @@ body {
 .success.bg::after {
     content: 'SUCCESSFUL'
 }
+.ous.bg::before {
+    content: 'TEAM INTRODUCE'
+}
+.ous.bg::after {
+    content: 'TEAM INTRODUCE'
+}
 .kh_.bg::before {
     content: 'OUR CUSTOMERS'
 }
 .kh_.bg::after {
     content: 'CUSTOMERS'
 }
-
+.lic.bg::before {
+    content: 'TEAM COURSE';
+    color: #fff;
+    opacity: .25;
+}
+.lic.bg::after {
+    content: 'TEAM COURSE';
+    opacity: .25;
+    z-index: -0;
+    color: #fff;
+}
+.ys.bg::before {
+    content: 'OURS ADVANTAGE';
+}
+.ys.bg::after {
+    content: 'OURS ADVANTAGE';
+}
 
 
 
@@ -750,13 +778,128 @@ body {
 
 
 
+/* 服务 */
+/* 团队历程 */
+.lic-wrap {
+    display: flex;
+    justify-content: center;
+}
+.lic-wrap .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 16px;
+}
+.lic-wrap .item .t {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lic-wrap .item .b {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lic-wrap .item .t p {
+    text-align: center;
+}
+.lic-wrap .item .t p:first-child {
+    font-size: 28px;
+}
+.lic-wrap .item .t p:last-child {
+    font-size: 22px;
+}
+.lic-wrap .item i {
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: #168EEA;
+    position: relative;
+}
+.lic-wrap .item i::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    border: 10px solid #168EEA;
+    border-left-color: transparent;
+}
+.lic-wrap .item i::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border: 10px solid #168EEA;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
 
 
 
+/* 我们的优势 */
+.ys-con {
+    display: flex;
+    justify-content: center;
+}
+.ys-con .l {
+    flex: 4;
+}
+.ys-con .l .r1 {
+    display: flex;
+    padding: 10px;
+}
+.ys-con .l .r2 {
+    display: flex;
+    padding: 10px;
+}
+.ys-con .l .r1 img:last-child {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.ys-con .l .r2 img:last-child {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.ys-con .r {
+    flex: 1;
+    padding: 10px;
+}
+.ys-con .r img:last-child {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
 
 
-
-
-
-
-
+.fw_tips {
+    background: #F7F7F7;
+    margin-top: 80px;
+    padding: 40px 0;
+}
+.fw_tips > ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.fw_tips > ul li {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 15px 20px;
+}
+.fw_tips > ul li img {
+    width: 30px;
+}
+.fw_tips > ul li p {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
