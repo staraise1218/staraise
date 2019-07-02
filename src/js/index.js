@@ -8,7 +8,7 @@ var mySwiper = new Swiper('.swiper-container', {
     },
     pagination: {
         el: '.swiper-pagination',
-        clickable :true,
+        clickable: true,
     },
     a11y: {
         prevSlideMessage: 'Previous slide',
@@ -18,10 +18,10 @@ var mySwiper = new Swiper('.swiper-container', {
         paginationBulletMessage: 'Go to slide {{index}}',
         notificationClass: 'swiper-notification',
     },
-    speed:500,
+    speed: 500,
     autoplay: {
-      delay: 2000,
-      disableOnInteraction: false,
+        delay: 2000,
+        disableOnInteraction: false,
     },
     // effect : 'flip',
 })
@@ -37,9 +37,8 @@ $('.service .s_list li').hover(function () {
 })
 
 $('.zs1 .z1').mouseover(function () {
-    $(this).find('.k1').show()
+    $(this).find('.k1').css('display', 'flex')
 })
 $('.zs1 .z1').mouseout(function () {
     $(this).find('.k1').hide()
 })
-
