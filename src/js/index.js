@@ -42,3 +42,12 @@ $('.zs1 .z1').mouseover(function () {
 $('.zs1 .z1').mouseout(function () {
     $(this).find('.k1').hide()
 })
+
+
+
+$(function(){
+    $(".htmleaf-container").jParticle({
+        background: "#141414",
+        color: "#E6E6E6"
+    });
+});
