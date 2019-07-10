@@ -31,11 +31,14 @@ var mySwiper = new Swiper('.swiper-container', {
 /**
  * 了解我们的服务切换
  */
-$('.service .s_list li').hover(function () {
-    $('.service .s_list li').removeClass('on');
+$('.service .s_list ul li').hover(function () {
+    $('.service .s_list ul li').removeClass('on');
     $(this).addClass('on')
 })
 
+// $('.service .s_list ul li').mouseover(function () {
+//     console.log('alkjsnl')
+// })
 $('.zs1 .z1').mouseover(function () {
     $(this).find('.k1').css('display', 'flex')
 })
