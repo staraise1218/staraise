@@ -148,7 +148,23 @@ body {
 .swiper-container .swiper-slide img {
     width: 100%;
 }
-
+.swiper-container .poster-item {
+    position: relative;
+    border: 1px solid red;
+}
+.swiper-container .poster-item .con {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+}
+.swiper-container .poster-item .con p:first-child {
+    font-size: 46px;
+    padding-bottom: 20px;
+}
 
 /* service */
 .service {
