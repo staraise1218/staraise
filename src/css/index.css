@@ -150,7 +150,6 @@ body {
 }
 .swiper-container .poster-item {
     position: relative;
-    border: 1px solid red;
 }
 .swiper-container .poster-item .con {
     position: absolute;
