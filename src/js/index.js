@@ -19,14 +19,21 @@ var mySwiper = new Swiper('.swiper-container', {
         notificationClass: 'swiper-notification',
     },
     speed: 500,
+    grabCursor : true,
     autoplay: {
-        delay: 2000,
+        delay: 800,
         disableOnInteraction: false,
     },
     // effect : 'flip',
 })
 
-
+$('.poster-item').mouseenter(function () {
+    console.log('in')
+    mySwiper.autoplay.stop();
+}).mouseleave(function () {
+    console.log('out')
+    mySwiper.autoplay.start();
+})
 
 /**
  * 了解我们的服务切换
@@ -48,9 +55,9 @@ $('.zs1 .z1').mouseout(function () {
 
 
 
-$(function(){
-    $(".htmleaf-container").jParticle({
-        background: "#141414",
-        color: "#E6E6E6"
-    });
-});
+// $(function(){
+//     $(".htmleaf-container").jParticle({
+//         background: "#141414",
+//         color: "#E6E6E6"
+//     });
+// });

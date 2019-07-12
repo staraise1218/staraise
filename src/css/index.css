@@ -159,6 +159,13 @@ body {
     color: #fff;
     text-align: center;
     font-size: 32px;
+    background: rgba(0,0,0,.2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .swiper-container .poster-item .con p:first-child {
     font-size: 46px;
