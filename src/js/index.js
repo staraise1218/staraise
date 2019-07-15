@@ -61,3 +61,18 @@ $('.zs1 .z1').mouseout(function () {
 //         color: "#E6E6E6"
 //     });
 // });
+
+var num = 0;
+
+setInterval(function () {
+    if(num == 9) {
+        num = 0;
+    }
+    if(num == 4) {
+        num = 5;
+    }
+    $('.process li').removeClass('active');
+    $('.process li').eq(num).addClass('active');
+    num++; 
+    console.log(num)
+}, 5000)

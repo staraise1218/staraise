@@ -364,7 +364,7 @@ body {
 .zs3 {
     width: 100%;
     height: 500px;
-    background-image: url(../img/1/4.png);
+    background-image: url(../img/z47.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 40px;
@@ -428,12 +428,12 @@ body {
     transform: translateY(-50%);
 }
 
-.process .t1 li::before {
-    background-image: url('../img/w2.png');
+.process li::before {
+    background-image: url('../img/1/154.png');
 }
 
-.process .t2 li::before {
-    background-image: url('../img/w3.png');
+.process li.active::before {
+    background-image: url('../img/1/153.png');
 }
 
 .process ul li:nth-child(5)::before {
@@ -612,7 +612,7 @@ body {
 
 .zs2.bg1 {
     background-image: url('../img/fw/z51.png');
-    height: 500px;
+    height: 530px;
 }
 
 .zs2 .p1 {
@@ -1047,6 +1047,7 @@ body {
 .lic-wrap {
     display: flex;
     justify-content: center;
+    font-size: 16px;
 }
 
 .lic-wrap .item {
@@ -1054,17 +1055,19 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0 16px;
+    cursor: pointer;
 }
 
 .lic-wrap .item .t {
-    height: 100px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .lic-wrap .item .b {
-    height: 100px;
+    height: 120px;
+    width: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
