@@ -1289,3 +1289,73 @@ body {
     height: 42px;
     margin-right: 8px;
 }
+
+
+
+
+
+
+
+.ff {
+    position: fixed;
+    bottom: 100px;
+    right: 60px;
+    cursor: pointer;
+    z-index: 10;
+}
+.ff ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ff ul li {
+    position: relative;
+    margin-bottom: 10px;
+}
+.ff ul li .left {
+    position: absolute;
+    background: #fff;
+    left: -222px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    height: 68px;
+    border-radius: 2px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    display: none;
+}
+.ff ul li .left p {
+    line-height: 2em;
+}
+.ff ul li .left p:first-child {
+    padding-top: 6px;
+}
+.ff ul li .left.wx {
+    left: -146px;
+    transform: translateY(-50%);
+    top: 0%;
+    background: none;
+}
+.ff ul li .left.wx img {
+    width: 130px;
+    border-radius: 4px;
+}
+.ff ul li .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+}
+.ff ul li .right img {
+    width: 30px;
+    margin-bottom: 4px;
+}

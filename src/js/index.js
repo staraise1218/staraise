@@ -24,7 +24,7 @@ var mySwiper = new Swiper('.swiper-container', {
         delay: 800,
         disableOnInteraction: false,
     },
-    // effect : 'flip',
+    effect : 'fade',
 })
 
 $('.poster-item').mouseenter(function () {
