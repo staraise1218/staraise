@@ -18,7 +18,7 @@ var mySwiper = new Swiper('.swiper-container', {
         paginationBulletMessage: 'Go to slide {{index}}',
         notificationClass: 'swiper-notification',
     },
-    speed: 500,
+    speed: 3000,
     grabCursor : true,
     autoplay: {
         delay: 800,
@@ -75,4 +75,4 @@ setInterval(function () {
     $('.process li').eq(num).addClass('active');
     num++; 
     console.log(num)
-}, 5000)
+}, 2000)
