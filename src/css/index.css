@@ -304,9 +304,6 @@ body {
     text-decoration: none;
 }
 
-
-
-
 /* zs1 */
 .zs1 {
     background-image: url('../img/w4.png');
@@ -370,10 +367,22 @@ body {
     background-repeat: no-repeat;
     margin-top: 40px;
     padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* 视频部分 */
+.vv {
+    display: flex;
+    align-items: center;
+}
+.vv .left {
+    margin-right: 50px;
 }
 
 .zs3 p {
-    font-size: 30px;
+    font-size: 22px;
+    line-height: 2em;
     color: #fff;
     padding: 40px 0 30px;
 }
