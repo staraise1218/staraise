@@ -27,7 +27,3 @@ var mySwiper = new Swiper('.swiper-container', {
     effect : 'fade',
 })
 
-
-$('.nav-top .right img').click(function () {
-    $('.nav_ul').toggle();
-})

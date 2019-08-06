@@ -16,6 +16,80 @@ button, input, select, textarea { font-size:100%; }
 table { border-collapse:collapse; border-spacing:0; }
 
 
+.nav-top {
+    background: rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem;
+    font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 900;
+}
+.nav-top .right img {
+    width: .6rem;
+}
+
+.nav_ul {
+    position: fixed;
+    z-index: 999;
+    width: 120px;
+    right: 0;
+    background: rgba(1,48,108,.7);
+    padding: 10px 0;
+    top: 1rem;
+}
+.nav_ul li {
+    text-align: center;
+    line-height: 34px;
+    list-style: none;
+}
+.nav_ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.footer {
+    background: #232424;
+    color: rgba(255, 255, 255, .5);
+    font-size: .2rem;
+    overflow: hidden;
+}
+.footer .g {
+    margin-top: .2rem;
+    display: flex;
+}
+.footer .g img {
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-left: .2rem;
+}
+.footer .g .t {
+    text-align: center;
+}
+.footer .g .t p {
+    padding: .1rem 0;
+}
+.footer > p {
+    padding: .08rem .1rem;
+}
+.footer .b {
+    border-top: 1px solid #1A1A1A;
+    background: #1A1A1A;
+    padding-top: .1rem;
+    margin-top: .1rem;
+}
+.footer .b p {
+    padding-bottom: .1rem;
+}
+
 
 /* 图片公共样式 */
 .icon_df {
@@ -62,8 +136,100 @@ table { border-collapse:collapse; border-spacing:0; }
 
 
 
+.f_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.f_btn .b {
+    background: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0,0,0,.1);
+}
+.f_btn .b img {
+    width: 30px;
+    height: 30px;
+}
+.f_btn .box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: none;
+    border: 2px solid rgba(0,0,0,.1);
+}
+.f_btn .box img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.f_btn .lb {
+    position: absolute;
+    left: -73px;
+    bottom: 0;
+}
+.f_btn .lb img {
+    width: 30px;
+    height: 30px;
+}
+.f_btn .cc {
+    position: absolute;
+    left: -51px;
+    bottom: 59px;
+}
+.f_btn .cc img {
+    width: 30px;
+    height: 30px;
+}
 
+.f_btn .rr {
+    position: absolute;
+    right: 0px;
+    bottom: 81px;
+}
+.f_btn .rr img {
+    width: 30px;
+    height: 30px;
+}
 
+.choose_bg {
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.choose_phone {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.choose_phone .title {
+    text-align: center;
+    padding: 10px;
+}
+.choose_phone a {
+    display: block;
+    background: #eee;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #222;
+}
+.choose_phone .close {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0,0,0,.1);
+}
 
 
 

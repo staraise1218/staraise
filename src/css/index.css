@@ -1335,13 +1335,14 @@ body {
     font-size: 14px;
     height: 68px;
     border-radius: 2px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     padding: 0 8px;
     box-sizing: border-box;
     display: none;
+}
+#dhf {
+    left: -235px;
+    height: 80px;
+    padding-top: 5px;
 }
 .ff ul li .left p {
     line-height: 2em;

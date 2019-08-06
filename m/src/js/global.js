@@ -51,3 +51,42 @@
 
 
 
+
+$('.nav-top .right img').click(function () {
+    $('.nav_ul').toggle();
+})
+
+
+
+
+
+$('.f_btn .b').click(function () {
+	//  0 不显示  1 显示
+	console.log($(this).attr('data-status'))
+	switch($(this).attr('data-status')) {
+		case "0":
+			$('.f_btn .box').fadeIn();
+			$(this).attr('data-status', '1');
+			break;
+		case "1":
+			$('.f_btn .box').fadeOut();
+			$(this).attr('data-status', '0');
+			break;
+	}
+})
+
+
+$('.choose_phone .close').click(function () {
+	$('.choose_phone').slideUp();
+	$('.choose_bg').hide();
+})
+
+
+$('.f_btn .cc').click(function () {
+	$('.choose_bg').show();
+	$('.choose_phone').slideDown();
+})
+$('.choose_bg').click(function () {
+	$('.choose_phone').slideUp();
+	$('.choose_bg').hide();
+})
