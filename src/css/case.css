@@ -43,6 +43,8 @@
 	margin-bottom: 15px;
 	vertical-align: top;
 	cursor: pointer;
+	overflow: hidden;
+	height: 280px;
 }
 .casefloor li .img {
 	display: block;
@@ -55,7 +57,7 @@
 }
 .casefloor li .title {
 	text-align: center;
-	padding: 10px 0;
+	padding: 15px 0;
 	font-size: 14px;;
 }
 .casefloor a {
