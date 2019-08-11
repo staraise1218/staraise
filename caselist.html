@@ -112,16 +112,16 @@
 				<h2>教育培训</h2>
 				<ul>
 					<li>
-						<div class="img"><img src="./src/img/case-wanke.jpg" alt=""></div>
+						<div class="img"><img src="./src/img/case/jiaoyu-1.jpg" alt=""></div>
 						<div class="title">儿歌网站</>
 					</li>
 					<li>
-						<div class="img"><img src="./src/img/case-wanke.jpg" alt=""></div>
+						<div class="img"><img src="./src/img/case/jiaoyu-2.jpg" alt=""></div>
 						<div class="title">高考志愿填报测试</>
 					</li>
 					
 					<li>
-						<div class="img"><img src="./src/img/case-wanke.jpg" alt=""></div>
+						<div class="img"><img src="./src/img/case/jiaoyu-3.jpg" alt=""></div>
 						<div class="title">拾穗行动</>
 					</li>
 				</ul>
@@ -340,8 +340,8 @@
 		});
 		
 		// 案例缩略图放大缩小
-		var imgHeight = $('.casefloor .img img')[0].height;
 		var imgWidth = $('.casefloor .img img')[0].width;
+		var imgHeight = $('.casefloor .img img')[0].height;
 		console.log(imgHeight, imgWidth)
 		$('.casefloor .img img').hover(function(){
 			var imgDivHeight = $(this).parent().height();
@@ -351,7 +351,7 @@
 				$(this).stop(true, true).animate({height: imgHeight+offsetNum, width: imgWidth+offsetNum, marginLeft: -10, marginTop: -10}, 100)
 		}, function(){
 			var offsetNum = 20; // 偏移量
-			console.log(imgHeight, $(this).height())
+			console.log(imgWidth, imgHeight)
 				// $('.casefloor .img img').stop(true, true);;
 				$(this).stop(true, true).animate({height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0}, 100)
 		})
