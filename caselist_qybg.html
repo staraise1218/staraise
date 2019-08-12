@@ -93,7 +93,7 @@
     </div>
     <!-- poster END -->
 	
-	<div class="container">
+	<div class="casecontainer">
 
 		
 		<!-- 案例列表 -->
@@ -107,21 +107,29 @@
 				</div>
 				<ul>
 					<li>
-						<div class="img"><img src="./src/img/case/bangong-1.jpg" alt=""></div>
-						<div class="title">体育场馆管理系统</>
+						<a href="cases/caseshow_forum_001.html">
+							<div class="img"><img src="./src/img/case/bangong-1.jpg" alt=""></div>
+							<div class="title">体育场馆管理系统</>
+						
 					</li>
 					<li>
-						<div class="img"><img src="./src/img/case/bangong-2.jpg" alt=""></div>
-						<div class="title">协会会员管理系统</>
+						<a href="cases/caseshow_forum_001.html">
+							<div class="img"><img src="./src/img/case/bangong-2.jpg" alt=""></div>
+							<div class="title">协会会员管理系统</>
+						</a>
 					</li>
 					
 					<li>
-						<div class="img"><img src="./src/img/case/bangong-3.jpg" alt=""></div>
-						<div class="title">人才招聘系统</>
+						<a href="cases/caseshow_forum_002.html">
+							<div class="img"><img src="./src/img/case/bangong-3.jpg" alt=""></div>
+							<div class="title">人才招聘系统</>
+						</a>
 					</li>
 					<li>
-						<div class="img"><img src="./src/img/case/bangong-4.jpg" alt=""></div>
-						<div class="title">铁路道岔检测系统</>
+						<a href="cases/caseshow_forum_003.html">
+							<div class="img"><img src="./src/img/case/bangong-4.jpg" alt=""></div>
+							<div class="title">铁路道岔检测系统</>
+						</a>	
 					</li>
 				</ul>
 			</div>
@@ -213,7 +221,7 @@
 		// 案例缩略图放大缩小
 		var imgWidth = $('.casefloor .img img')[0].width;
 		var imgHeight = $('.casefloor .img img')[0].height;
-		console.log(imgHeight, imgWidth)
+		console.log(imgWidth, imgHeight)
 		$('.casefloor .img img').hover(function(){
 			var imgDivHeight = $(this).parent().height();
 			$(this).parent().height(imgDivHeight)
@@ -223,7 +231,6 @@
 		}, function(){
 			var offsetNum = 20; // 偏移量
 			console.log(imgWidth, imgHeight)
-				// $('.casefloor .img img').stop(true, true);;
 				$(this).stop(true, true).animate({height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0}, 300)
 		})
 	
