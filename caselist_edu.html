@@ -222,22 +222,24 @@
     <script type="text/javascript" src="./src/js/baidushangqiao.js"></script>
 	<script type="text/javascript">
 
-		// 案例缩略图放大缩小
-		var imgWidth = $('.casefloor .img img')[0].width;
-		var imgHeight = $('.casefloor .img img')[0].height;
-		console.log(imgHeight, imgWidth)
-		$('.casefloor .img img').hover(function(){
-			var imgDivHeight = $(this).parent().height();
-			$(this).parent().height(imgDivHeight)
-			var offsetNum = 20; // 偏移量
+		$(function(){
+            // 案例缩略图放大缩小
+            var imgWidth = $('.casefloor .img img')[0].width;
+            var imgHeight = $('.casefloor .img img')[0].height;
+            console.log(imgHeight, imgWidth)
+            $('.casefloor .img img').hover(function(){
+                var imgDivHeight = $(this).parent().height();
+                $(this).parent().height(imgDivHeight)
+                var offsetNum = 20; // 偏移量
 
-				$(this).stop(true, true).animate({height: imgHeight+offsetNum, width: imgWidth+offsetNum, marginLeft: -10, marginTop: -10}, 300)
-		}, function(){
-			var offsetNum = 20; // 偏移量
-			console.log(imgWidth, imgHeight)
-				// $('.casefloor .img img').stop(true, true);;
-				$(this).stop(true, true).animate({height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0}, 300)
-		})
+                    $(this).stop(true, true).animate({height: imgHeight+offsetNum, width: imgWidth+offsetNum, marginLeft: -10, marginTop: -10}, 300)
+            }, function(){
+                var offsetNum = 20; // 偏移量
+                console.log(imgWidth, imgHeight)
+                    // $('.casefloor .img img').stop(true, true);;
+                    $(this).stop(true, true).animate({height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0}, 300)
+            })
+        })
 	
 	</script>
 
