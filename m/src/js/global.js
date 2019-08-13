@@ -97,6 +97,7 @@ $('.f_btn .b').click(function () {
 		case "0":
 			$('.f_btn .box').fadeIn();
 			$(this).attr('data-status', '1');
+			$('.lb').hide();
 			break;
 		case "1":
 			$('.f_btn .box').fadeOut();
