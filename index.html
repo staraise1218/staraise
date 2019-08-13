@@ -18,9 +18,15 @@
 
 <body>
     <script>
-        if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //移动端
-            window.location.href = 'm/index.html'            
-        }
+		if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+            window.location.href = 'm/index.html'
+		}
+		else {
+			// $('.t1').text('PC端')
+		}
+        // if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //移动端
+        //     window.location.href = 'm/index.html'
+        // }
     </script>
     <!-- Nav -->
     <nav class="navbar my-nav my-nav_bg navbar-fixed-top" style="font-size: 2em;z-index: 20;">
