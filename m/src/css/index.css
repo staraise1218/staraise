@@ -61,12 +61,15 @@
     flex-wrap: wrap;
 }
 .z_bg .zz img {
-    width: .8rem;
+    width: 26px;
+    height: 26px;
 }
 .z_bg .zz .s {
     display: flex;
     align-items: center;
-    padding: .1rem .2rem;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    width: 50%;
 }
 .z_bg .zz .s p {
     white-space: nowrap;
