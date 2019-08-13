@@ -97,7 +97,7 @@
 .service .s_list ul li {
     width: 3.6rem;
     box-sizing: border-box;
-    height: 8rem;
+    height: 316px;
     border: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
     float: left;
@@ -115,24 +115,25 @@
 }
 
 .service .s1 {
-    margin-left: 27px;
+    margin-left: 12px;
 }
 
 .service .k1 {
-    margin-top: 38px;
+    margin-top: 12px;
     height: 50px;
 }
 
 .service .k2 {
-    font-size: 18px;
+    font-size: .34rem;
     color: #333;
     height: 38px;
+    font-weight: bold;
 }
 
 .service .k3 {
-    border-top: 2px solid #86aefa;
+    /* border-top: 2px solid #86aefa;
     width: 30px;
-    height: 28px;
+    height: 28px; */
 }
 
 .service .k4 {
