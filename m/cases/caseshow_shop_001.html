@@ -11,10 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    
-    <script src="./src/js/global.js"></script>
-    <link rel="stylesheet" href="./src/css/globa.css">
 
+
+    <link rel="stylesheet" href="../src/css/globa.css">
+    <link rel="stylesheet" href="../../src/plugin/swiper/css/swiper.css">
+    <link rel="stylesheet" href="../src/css/index.css">
     <style>
         body {
             height: 100vh;
@@ -23,6 +24,7 @@
         .poster {
             width: 100%;
             position: relative;
+            font-size: 0;
         }
 
         .poster img {
@@ -80,6 +82,29 @@
             position: relative;
             margin: 12px;
         }
+        .content {
+            padding: 12px;
+        }
+        .content img {
+            width: 100%;
+        }
+        .crumb {
+            padding: 12px;
+            background: #eee;
+        }
+        .crumb a {
+            color: #222;
+        }
+        .caseshow .title {
+            padding: 12px 0 0 12px;
+        }
+        .con_bot {
+            padding: 0 12px 12px 12px;
+            font-size: 12px;
+        }
+        .con_bot a {
+            color: #38f;
+        }
 
     </style>
 </head>
@@ -88,17 +113,17 @@
     <!-- Nav -->
     <div class="nav-top">
         <div class="logo">
-            <img class="icon_logo" src="../src/img/logo_1.png" alt="">
+            <img class="icon_logo" src="../../src/img/logo_1.png" alt="">
         </div>
         <div class="right">
-            <img src="../src/img/m/top_menu.png" alt="">
+            <img src="../../src/img/m/top_menu.png" alt="">
         </div>
     </div>
     <!-- Nav END -->
 	
     <!-- poster -->
     <div class="poster">
-        <img src="../src/img/banner/m6.png" alt="">
+        <img src="../../src/img/banner/m6.png" alt="">
         <div class="con">
             <p>服务客户为核心、共同创新、互利共赢</p>
             <p>共创美好的未来</p>
@@ -106,60 +131,50 @@
     </div>
     <!-- poster END -->
 	
+	<!-- 面包屑导航 -->
+	<div class="huibg">
+		<div class="crumb">
+			<span>当前位置：</span>
+			&gt; <a href="/">主页</a> 
+			&gt; <a href="/caselist_shop.html">电商系统案例</a>
+		</div>
+	</div>
 	<div class="casecontainer">
-
-		
-		<!-- 案例列表 -->
-		<div class="casebox">
-			<div class="casefloor" id="0">
-				<h2>电商系统</h2>
-				<div class="desc">
-					<p>在商城APP、商城系统的客户项目交付方面积累了丰富经验，基于Java/PHP的稳定技术架构，APP采用原生开发，且交付质量及周期更明确更有保障。 
-我们已协助多个客户通过商城系统运作成功，并进行2期、3期甚至更长期的开发合作，典型案例如生鲜外卖配送，奢侈品B2C电商，红酒加金融B2B2C电商，一元云购电商。</p>
-				</div>
-				<ul>					<li>
-                    <a href="cases/caseshow_shop_001.html">
-                        <div class="img"><img src="../src/img/case/dianshang-1.jpg" alt=""></div>
-                        <div class="title">国典寄卖行电商系统</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="cases/caseshow_shop_002.html">
-                        <div class="img"><img src="../src/img/case/dianshang-2.jpg" alt=""></div>
-                        <div class="title">海豹超市小程序</div>
-                    </a>
-                </li>
-                
-                <!-- <li>
-                    <a href="cases/caseshow_shop_003.html">
-                        <div class="img"><img src="../src/img/case/dianshang-3.jpg" alt=""></div>
-                        <div class="title">红酒加金融B2B2C电商</div>
-                    </a>
-                </li> -->
-                <li>
-                    <a href="cases/caseshow_shop_003.html">
-                        <div class="img"><img src="../src/img/case/dianshang-4.jpg" alt=""></div>
-                        <div class="title">一元云购电商</div>
-                    </a>
-                </li>
-				</ul>
-			</div>
+		<div class="caseshow">
+            <div class="title">国典寄卖行电商系统</div>
+            <div class="content">
+                <div class="marginTop30">
+                    <span class="marginRight30"> <img src="../../cases/images/013.jpg" alt=""> </span>
+                    <span class="marginRight30"> <img src="../../cases/images/014.jpg" alt=""> </span>
+                </div>
+                <div class="marginTop30">
+                    <span class="marginRight30"> <img src="../../cases/images/015.jpg" alt=""> </span>
+                </div>
+            </div>
+			<div class="con_bot">本信息来源于：
+				<a href="http://www.staraise.com.cn">星擎科技</a>
+				<a href="http://www.staraise.com.cn">www.staraise.com.cn</a>
+				<a href="http://www.staraise.com.cn">教育培训案例</a>
+				<a href="http://www.staraise.com.cn">软件开发</a>
+				<a href="http://www.staraise.com.cn">网站建设</a>
+				<a href="http://www.staraise.com.cn">APP开发</a>
+			 </div>
 		</div>
-		
-		</div>
-		
-		<!-- 案例列表 END -->
 	</div>
 	
+	<!-- 面包屑导航 END -->
+	
+
+
 
     <div class="footer">
         <div class="g">
             <div class="t">
-                <img src="../src/img/code2.jpg" alt="">
+                <img src="../../src/img/code2.jpg" alt="">
                 <p>企业公众号</p>
             </div>
             <div class="t">
-                <img src="../src/img/code1.png" class="" alt="">
+                <img src="../../src/img/code1.png" class="" alt="">
                 <p>企业微信</p>
             </div>
         </div>
@@ -182,13 +197,13 @@
 
 
     <div class="nav_ul" style="display: none">
-        <li><a href="index.html#test">教育培训</a></li>
-        <li><a href="index.html#test">企业办公</a></li>
-        <li><a href="index.html#test">电商系统</a></li>
-        <li><a href="index.html#test">社区论坛</a></li>
-        <li><a href="zn.html">智能软硬件</a></li>
-        <li><a href="yj.html">三维可视化</a></li>
-        <li><a href="about.html">关于我们</a></li>
+        <li><a href="../index.html#test">教育培训</a></li>
+        <li><a href="../index.html#test">企业办公</a></li>
+        <li><a href="../index.html#test">电商系统</a></li>
+        <li><a href="../index.html#test">社区论坛</a></li>
+        <li><a href="../zn.html">智能软硬件</a></li>
+        <li><a href="../yj.html">三维可视化</a></li>
+        <li><a href="../about.html">关于我们</a></li>
     </div>
 
 
@@ -197,18 +212,18 @@
 
     <div class="f_btn">
         <div class="b" data-status="0">
-            <img src="../src/img/m/news.png" alt="">
+            <img src="../../src/img/m/news.png" alt="">
         </div>
         <div class="lb box">
             <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&username=*****&sn=****&scene=1#wechat_redirect">
-                <img src="../src/img/001.png" alt="">
+                <img src="../../src/img/001.png" alt="">
             </a>
         </div>
         <div class="cc box">
-            <img src="../src/img/002.png" alt="">
+            <img src="../../src/img/002.png" alt="">
         </div>
         <div class="rr box">
-            <img src="../src/img/003.png" alt="">
+            <img src="../../src/img/003.png" alt="">
         </div>
     </div>
 
@@ -222,11 +237,10 @@
         <div class="close">取消</div>
     </div>
 
-
-    <script src="../src/js/jquery.js"></script>
-    <script src="../src/plugin/swiper/js/swiper.js"></script>
-    <script src="./src/js/global.js"></script>
-    <script src="./src/js/index.js"></script>
+    <script src="../../src/js/jquery.js"></script>
+    <script src="../../src/plugin/swiper/js/swiper.js"></script>
+    <script src="../src/js/global.js"></script>
+    <script src="../../src/js/index.js"></script>
 
 </body>
 
