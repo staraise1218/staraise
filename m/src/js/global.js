@@ -125,7 +125,7 @@ $('.choose_bg').click(function () {
 
 
 
-$('body').append(`<div class="nav_ul" style="display: none">
+$('body').append(`<div class="nav_ul" style="display: block">
 					<li><a href="http://www.staraise.com.cn/m/index.html">首页</a></li>
 					<li><a href="http://www.staraise.com.cn/m/case_shop.html">电商系统</a></li>
 					<li><a href="http://www.staraise.com.cn/m/case_edu.html">教育培训</a></li>
