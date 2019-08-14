@@ -100,7 +100,7 @@
 .service .s_list ul li {
     width: 3.6rem;
     box-sizing: border-box;
-    height: 316px;
+    height: 260px;
     border: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
     float: left;
@@ -123,14 +123,19 @@
 
 .service .k1 {
     margin-top: 12px;
-    height: 50px;
+    height: 38px;
+}
+.service .k1 img {
+    width: .46rem
 }
 
 .service .k2 {
-    font-size: .34rem;
+    font-size: 0.34rem;
     color: #333;
-    height: 38px;
-    font-weight: bold;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+    /* font-weight: bold; */
 }
 
 .service .k3 {
@@ -141,8 +146,8 @@
 
 .service .k4 {
     color: #666;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 0.24rem;
+    line-height: 2em;
 }
 
 .service .s2 {

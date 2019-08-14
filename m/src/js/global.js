@@ -124,7 +124,7 @@ $('.choose_bg').click(function () {
 
 
 
-
+// nav
 $('body').append(`<div class="nav_ul" style="display: none">
 					<li><a href="http://www.staraise.com.cn/m/index.html">首页</a></li>
 					<li><a href="http://www.staraise.com.cn/m/case_shop.html">电商系统</a></li>
@@ -135,3 +135,22 @@ $('body').append(`<div class="nav_ul" style="display: none">
 					<li><a href="http://www.staraise.com.cn/m/yj.html">三维可视化</a></li>
 					<li><a href="http://www.staraise.com.cn/m/about.html">关于我们</a></li>
 				</div>`)
+
+
+
+
+
+$('body').append(`<div class="footer">
+						<div class="t">
+							<p>北京办公室：北京市海淀区中关村E世界5层</p>
+							<p>北京办公室电话：18701400025</p>
+							<p>沈阳办公室：辽宁省沈阳市铁西区云峰北街62号2611</p>
+							<p>沈阳办公室电话：15640256825</p>
+							<p>邮箱：office@staraise.com.cn</p>
+						</div>
+						<div class="b">
+							<p class="text-center">
+								COPYRIGHT © 辽ICP备18013896号-1 2016 
+							</p>
+						</div>
+					</div>`)
