@@ -87,18 +87,16 @@
 }
 
 .service {
-    padding: 0 .1rem;
+    margin: 0 .1rem;
 }
-.service .s_list {
-    /* width: 1200px; */
-    margin: 0 auto;
+.service .s_list ul {
     display: flex;
-    flex-direction: column;
-    z-index: 20;
+    justify-content: space-between;
 }
 
 .service .s_list ul li {
-    width: 3.6rem;
+    /* width: 3.6rem; */
+    flex: 1;
     box-sizing: border-box;
     height: 260px;
     border: 1px solid #f1f1f1;
@@ -108,6 +106,9 @@
     z-index: 20;
     background: #fff;
     margin-bottom: .1rem;
+}
+.service .s_list ul li.empty {
+    border: none;
 }
 .service .s_list ul li:nth-child(odd) {
     margin-right: .1rem;
