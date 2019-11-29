@@ -146,6 +146,7 @@ body {
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 100;
 }
 .f_btn .b {
     background: #fff;
