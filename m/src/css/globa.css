@@ -151,16 +151,16 @@ body {
 .f_btn .b {
     background: #fff;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgba(0,0,0,.1);
+    border: 2px solid #d81e06;
 }
 .f_btn .b img {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
 }
 .f_btn .box {
     width: 40px;
