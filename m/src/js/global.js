@@ -140,17 +140,17 @@ $('body').append(`<div class="nav_ul" style="display: none">
 
 
 
-$('body').append(`<div class="footer">
-						<div class="t">
-							<p>北京办公室：北京市海淀区中关村E世界5层</p>
-							<p>北京办公室电话：18701400025</p>
-							<p>沈阳办公室：辽宁省沈阳市铁西区云峰北街62号2611</p>
-							<p>沈阳办公室电话：15640256825</p>
-							<p>邮箱：office@staraise.com.cn</p>
-						</div>
-						<div class="b">
-							<p class="text-center">
-								COPYRIGHT © 辽ICP备18013896号-1 2016 
-							</p>
-						</div>
-					</div>`)
+// $('body').append(`<div class="footer">
+// 						<div class="t">
+// 							<p>北京办公室：北京市海淀区中关村E世界5层</p>
+// 							<p>北京办公室电话：18701400025</p>
+// 							<p>沈阳办公室：辽宁省沈阳市铁西区云峰北街62号2611</p>
+// 							<p>沈阳办公室电话：15640256825</p>
+// 							<p>邮箱：office@staraise.com.cn</p>
+// 						</div>
+// 						<div class="b">
+// 							<p class="text-center">
+// 								COPYRIGHT © 辽ICP备18013896号-1 2016 
+// 							</p>
+// 						</div>
+// 					</div>`)
