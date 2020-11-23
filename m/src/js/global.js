@@ -132,7 +132,7 @@ $('body').append(`<div class="nav_ul" style="display: none">
 					<li><a href="http://www.staraise.com.cn/m/case_luntan.html">社区论坛</a></li>
 					<li><a href="http://www.staraise.com.cn/m/case_qy.html">企业办公</a></li>
 					<li><a href="http://www.staraise.com.cn/m/zn.html">智能软硬件</a></li>
-					<li><a href="http://www.staraise.com.cn/m/caselist_visualization.html">三维可视化</a></li>
+					<li><a href="http://www.staraise.com.cn/m/caselist_visualization.html">数据可视化</a></li>
 					<li><a href="http://www.staraise.com.cn/m/about.html">关于我们</a></li>
 				</div>`)
 
