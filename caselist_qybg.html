@@ -47,7 +47,6 @@
             opacity: .7;
             margin-top: 20px;
         }
-
     </style>
 </head>
 
@@ -83,7 +82,7 @@
         </div>
     </nav>
     <!-- Nav END -->
-	
+
     <!-- poster -->
     <div class="poster">
         <!-- <img src="./src/img/banner/3.jpg" alt=""> -->
@@ -94,35 +93,35 @@
         </div>
     </div>
     <!-- poster END -->
-	
-	<div class="casecontainer">
 
-		
-		<!-- 案例列表 -->
-		<div class="casebox">
-			<div class="casefloor" id="0">
-				<h2>企业办公</h2>
-				<div class="desc">
-					<!-- <p>目前星擎团队已向几十家客户提供商务办公系统定制开发，覆盖商业，企业，公益单位，航空单位，等多家机构提供系统服务，包括办公系统，会员管理系统，人才招聘系统，铁路道岔检测系统。
+    <div class="casecontainer">
+
+
+        <!-- 案例列表 -->
+        <div class="casebox">
+            <div class="casefloor" id="0">
+                <h2>企业办公</h2>
+                <div class="desc">
+                    <!-- <p>目前星擎团队已向几十家客户提供商务办公系统定制开发，覆盖商业，企业，公益单位，航空单位，等多家机构提供系统服务，包括办公系统，会员管理系统，人才招聘系统，铁路道岔检测系统。
 
 </p> -->
                     <p>星擎团队具有多年的企业办公系统建设经验，目前已向多家客户提供定制开发服务，覆盖政府，企业，商业，事业单位等。系统产品包括项目管理系统，会员管理系统，人才招聘系统，铁路道岔检测系统。</p>
-				</div>
-				<ul>
+                </div>
+                <ul>
                     <li>
                         <a href="cases/caseshow_edu_008.html">
                             <div class="img"><img src="./src/img/case/dengbao.png" alt=""></div>
                             <div class="title">项目管理系统</div>
                         </a>
                     </li>
-				
-					<li>
-						<a href="cases/caseshow_qybg_002.html">
-							<div class="img"><img src="./src/img/case/bangong-2.jpg" alt=""></div>
-							<div class="title">协会会员管理系统</>
-						</a>
-					</li>
-                    
+
+                    <li>
+                        <a href="cases/caseshow_qybg_002.html">
+                            <div class="img"><img src="./src/img/case/bangong-2.jpg" alt=""></div>
+                            <div class="title">协会会员管理系统</>
+                        </a>
+                    </li>
+
                     <li>
                         <a href="cases/caseshow_qybg_003.html">
                             <div class="img"><img src="./src/img/case/bangong-3.jpg" alt=""></div>
@@ -134,7 +133,7 @@
                         <a href="cases/caseshow_qybg_004.html">
                             <div class="img"><img src="./src/img/case/bangong-4.jpg" alt=""></div>
                             <div class="title">铁路道岔检测系统</>
-                        </a>    
+                        </a>
                     </li>
                     <li>
                         <a href="cases/caseshow_qybg_005.html">
@@ -149,26 +148,38 @@
                             <div class="title">招聘网站</>
                         </a>
                     </li>
-                  
-                   
+
+
                     <li>
                         <a href="cases/caseshow_qybg_001.html">
-							<div class="img"><img src="./src/img/case/bangong-1.jpg" alt=""></div>
-							<div class="title">体育场馆管理系统</>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		
-		</div>
-		
-		<!-- 案例列表 END -->
-	</div>
-	
+                            <div class="img"><img src="./src/img/case/bangong-1.jpg" alt=""></div>
+                            <div class="title">体育场馆管理系统</>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cases/caseshow_qybg_010.html">
+                            <div class="img"><img src="./src/img/case/bangong-8.png" alt=""></div>
+                            <div class="title">农庄管理系统</>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cases/caseshow_qybg_011.html">
+                            <div class="img"><img src="./src/img/case/h-1.png" alt=""></div>
+                            <div class="title">会议室预定系统</>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 案例列表 END -->
+    </div>
 
 
-	<!-- 右侧边栏 -->
+
+    <!-- 右侧边栏 -->
     <div class="ff">
         <ul>
             <li class="shangqiao">
@@ -198,7 +209,7 @@
             </li>
         </ul>
     </div>
-	<!-- 右侧边栏 END -->
+    <!-- 右侧边栏 END -->
 
 
 
@@ -240,28 +251,28 @@
     <script src="./src/js/global.js"></script>
     <script type="text/javascript" src="./src/js/baidushangqiao.js"></script>
 
-	<script type="text/javascript">
+    <script type="text/javascript">
 
-		$(function(){
-			// 案例缩略图放大缩小
-			var imgWidth = $('.casefloor .img img')[0].width;
-			var imgHeight = $('.casefloor .img img')[0].height;
-			console.log(imgHeight, imgWidth)
-			$('.casefloor .img img').hover(function(){
-				var imgDivHeight = $(this).parent().height();
-				$(this).parent().height(imgDivHeight)
-				var offsetNum = 20; // 偏移量
+        $(function () {
+            // 案例缩略图放大缩小
+            var imgWidth = $('.casefloor .img img')[0].width;
+            var imgHeight = $('.casefloor .img img')[0].height;
+            console.log(imgHeight, imgWidth)
+            $('.casefloor .img img').hover(function () {
+                var imgDivHeight = $(this).parent().height();
+                $(this).parent().height(imgDivHeight)
+                var offsetNum = 20; // 偏移量
 
-					$(this).stop(true, true).animate({height: imgHeight+offsetNum, width: imgWidth+offsetNum, marginLeft: -10, marginTop: -10}, 300)
-			}, function(){
-				var offsetNum = 20; // 偏移量
-				console.log(imgWidth, imgHeight)
-					// $('.casefloor .img img').stop(true, true);;
-					$(this).stop(true, true).animate({height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0}, 300)
-			})
-		})
-	
-	</script>
+                $(this).stop(true, true).animate({ height: imgHeight + offsetNum, width: imgWidth + offsetNum, marginLeft: -10, marginTop: -10 }, 300)
+            }, function () {
+                var offsetNum = 20; // 偏移量
+                console.log(imgWidth, imgHeight)
+                // $('.casefloor .img img').stop(true, true);;
+                $(this).stop(true, true).animate({ height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0 }, 300)
+            })
+        })
+
+    </script>
 
 </body>
 

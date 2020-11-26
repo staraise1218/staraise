@@ -47,7 +47,6 @@
             opacity: .7;
             margin-top: 20px;
         }
-
     </style>
 </head>
 
@@ -83,7 +82,7 @@
         </div>
     </nav>
     <!-- Nav END -->
-	
+
     <!-- poster -->
     <div class="poster">
         <img src="./src/img/banner/3.jpg" alt="">
@@ -93,57 +92,58 @@
         </div>
     </div>
     <!-- poster END -->
-	
-	<div class="casecontainer">
 
-		
-		<!-- 案例列表 -->
-		<div class="casebox">
-			<div class="casefloor" id="0">
-				<h2>企业办公</h2>
-				<div class="desc">
-					<p>覆盖不同行业论坛，商务社交系统，以及个人社交软件，共享知识付费社交等多个版本系统。例如B2B行业论坛，游乐行业论坛，中医问诊平台，养殖行业论坛，约会交友。
-
-</p>
-				</div>
-				<ul>
-					<li>
-						<a href="cases/caseshow_forum_001.html">
-							<div class="img"><img src="./src/img/case/forum-1.jpg" alt=""></div>
-							<div class="title">B2B行业论坛</>
-						</a>
-					</li>
-					<li>
-						<a href="cases/caseshow_forum_002.html">
-							<div class="img"><img src="./src/img/case/forum-2.jpg" alt=""></div>
-							<div class="title">养殖行业论坛</>
-						</a>
-					</li>
-					
-					<li>
-						<a href="cases/caseshow_forum_003.html">
-							<div class="img"><img src="./src/img/case/forum-3.jpg" alt=""></div>
-							<div class="title">约会交友</>
-						</a>
-					</li>
-					<li>
-						<a href="cases/caseshow_forum_004.html">
-							<div class="img"><img src="./src/img/case/forum-4.jpg" alt=""></div>
-							<div class="title">中医问诊平台</>
-					</li>
-				</ul>
-</a>
-			</div>
-		</div>
-		
-		</div>
-		
-		<!-- 案例列表 END -->
-	</div>
-	
+    <div class="casecontainer">
 
 
-	<!-- 右侧边栏 -->
+        <!-- 案例列表 -->
+        <div class="casebox">
+            <div class="casefloor" id="0">
+                <h2>社区论坛</h2>
+                <div class="desc">
+                    <p>覆盖不同行业论坛，商务社交系统，以及个人社交软件，共享知识付费社交等多个版本系统。例如B2B行业论坛，游乐行业论坛，中医问诊平台，养殖行业论坛，约会交友。
+
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="cases/caseshow_forum_001.html">
+                            <div class="img"><img src="./src/img/case/forum-1.jpg" alt=""></div>
+                            <div class="title">B2B行业论坛</>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cases/caseshow_forum_002.html">
+                            <div class="img"><img src="./src/img/case/forum-2.jpg" alt=""></div>
+                            <div class="title">养殖行业论坛</>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="cases/caseshow_forum_003.html">
+                            <div class="img"><img src="./src/img/case/forum-3.jpg" alt=""></div>
+                            <div class="title">约会交友</>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cases/caseshow_forum_004.html">
+                            <div class="img"><img src="./src/img/case/forum-4.jpg" alt=""></div>
+                            <div class="title">中医问诊平台</>
+                    </li>
+                   
+                </ul>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 案例列表 END -->
+    </div>
+
+
+
+    <!-- 右侧边栏 -->
     <div class="ff">
         <ul>
             <li class="shangqiao">
@@ -173,7 +173,7 @@
             </li>
         </ul>
     </div>
-	<!-- 右侧边栏 END -->
+    <!-- 右侧边栏 END -->
 
 
 
@@ -215,28 +215,28 @@
     <script src="./src/js/global.js"></script>
     <script type="text/javascript" src="./src/js/baidushangqiao.js"></script>
 
-	<script type="text/javascript">
+    <script type="text/javascript">
 
-		$(function(){
-			// 案例缩略图放大缩小
-			var imgWidth = $('.casefloor .img img')[0].width;
-			var imgHeight = $('.casefloor .img img')[0].height;
-			console.log(imgHeight, imgWidth)
-			$('.casefloor .img img').hover(function(){
-				var imgDivHeight = $(this).parent().height();
-				$(this).parent().height(imgDivHeight)
-				var offsetNum = 20; // 偏移量
+        $(function () {
+            // 案例缩略图放大缩小
+            var imgWidth = $('.casefloor .img img')[0].width;
+            var imgHeight = $('.casefloor .img img')[0].height;
+            console.log(imgHeight, imgWidth)
+            $('.casefloor .img img').hover(function () {
+                var imgDivHeight = $(this).parent().height();
+                $(this).parent().height(imgDivHeight)
+                var offsetNum = 20; // 偏移量
 
-					$(this).stop(true, true).animate({height: imgHeight+offsetNum, width: imgWidth+offsetNum, marginLeft: -10, marginTop: -10}, 300)
-			}, function(){
-				var offsetNum = 20; // 偏移量
-				console.log(imgWidth, imgHeight)
-					// $('.casefloor .img img').stop(true, true);;
-					$(this).stop(true, true).animate({height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0}, 300)
-			})
-		})
-	
-	</script>
+                $(this).stop(true, true).animate({ height: imgHeight + offsetNum, width: imgWidth + offsetNum, marginLeft: -10, marginTop: -10 }, 300)
+            }, function () {
+                var offsetNum = 20; // 偏移量
+                console.log(imgWidth, imgHeight)
+                // $('.casefloor .img img').stop(true, true);;
+                $(this).stop(true, true).animate({ height: imgHeight, width: imgWidth, marginLeft: 0, marginTop: 0 }, 300)
+            })
+        })
+
+    </script>
 
 </body>
 
