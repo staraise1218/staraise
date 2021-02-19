@@ -130,7 +130,7 @@ $('body').append(`<div class="nav_ul" style="display: none">
 					<li><a href="http://www.staraise.com.cn/m/case_edu.html">教育培训</a></li>
 					<li><a href="http://www.staraise.com.cn/m/case_qy.html">企业办公</a></li>
 					<li><a href="http://www.staraise.com.cn/m/caselist_visualization.html">数据可视化</a></li>
-					<li><a href="http://www.staraise.com.cn/m/wlwxt.html">物联网系统</a></li>
+					<li><a href="http://www.staraise.com.cn/m/caselist_wlwxt.html">物联网系统</a></li>
 					<li><a href="http://www.staraise.com.cn/m/case_shop.html">电商系统</a></li>			
 					<li><a href="http://www.staraise.com.cn/m/case_luntan.html">社区论坛</a></li>			
 					<li><a href="http://www.staraise.com.cn/m/zn.html">智能软硬件</a></li>
